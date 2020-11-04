@@ -5,7 +5,8 @@ import AppBar from "@material-ui/core/AppBar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
+//assets
+import { ReactComponent as AppName } from "../../assets/logo/kiwi.svg";
 
 export default function Appbar(props) {
   const classes = useStyles();
@@ -14,15 +15,13 @@ export default function Appbar(props) {
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <IconButton
-            edge="start"
+            edge="end"
             onClick={props.handleDrawerToggle}
             className={classes.menuButton}
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" noWrap>
-            Menu
-          </Typography>
+          <AppName />
         </Toolbar>
       </AppBar>
     </div>
