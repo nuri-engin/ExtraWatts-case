@@ -1,12 +1,14 @@
 import React from "react";
 import useStyles from "./SidebarItems.style.js";
-//materialUI components
+
+// Material-UI components
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import Typography from "@material-ui/core/Typography";
-//logo images and icons
+
+// Logo and Icons
 import { ReactComponent as AppLogo } from "../../assets/logo/kiwiLogo.svg";
 import { ReactComponent as LogoutIcon } from "../../assets/icons/logout-icon.svg";
 

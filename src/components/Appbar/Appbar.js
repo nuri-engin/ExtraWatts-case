@@ -1,11 +1,14 @@
 import React from "react";
 import useStyles from "./Appbar.style.js";
-//material-ui components
+
+// Material-UI components
 import AppBar from "@material-ui/core/AppBar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import Toolbar from "@material-ui/core/Toolbar";
-//assets
+
+
+// Assets
 import { ReactComponent as AppName } from "../../assets/logo/kiwi.svg";
 
 export default function Appbar(props) {

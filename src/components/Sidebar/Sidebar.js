@@ -2,7 +2,8 @@ import React from "react";
 import useStyles from "./Sidebar.style.js";
 import Appbar from "../Appbar/Appbar";
 import SidebarItems from "../SidebarItems/SidebarItems";
-//material-ui components
+
+// Material-UI components
 import Drawer from "@material-ui/core/Drawer";
 import Hidden from "@material-ui/core/Hidden";
 import { useTheme } from "@material-ui/core/styles";
