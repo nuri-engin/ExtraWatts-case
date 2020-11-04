@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ExtraWatts-case/static/css/main.4a4137e4.chunk.css",
+    "main.js": "/ExtraWatts-case/static/js/main.1b90293f.chunk.js",
+    "main.js.map": "/ExtraWatts-case/static/js/main.1b90293f.chunk.js.map",
+    "runtime-main.js": "/ExtraWatts-case/static/js/runtime-main.12159c0d.js",
+    "runtime-main.js.map": "/ExtraWatts-case/static/js/runtime-main.12159c0d.js.map",
+    "static/js/2.d88ae2e1.chunk.js": "/ExtraWatts-case/static/js/2.d88ae2e1.chunk.js",
+    "static/js/2.d88ae2e1.chunk.js.map": "/ExtraWatts-case/static/js/2.d88ae2e1.chunk.js.map",
+    "static/js/3.8b10d287.chunk.js": "/ExtraWatts-case/static/js/3.8b10d287.chunk.js",
+    "static/js/3.8b10d287.chunk.js.map": "/ExtraWatts-case/static/js/3.8b10d287.chunk.js.map",
+    "index.html": "/ExtraWatts-case/index.html",
+    "static/css/main.4a4137e4.chunk.css.map": "/ExtraWatts-case/static/css/main.4a4137e4.chunk.css.map",
+    "static/js/2.d88ae2e1.chunk.js.LICENSE.txt": "/ExtraWatts-case/static/js/2.d88ae2e1.chunk.js.LICENSE.txt",
+    "static/media/kiwi.e88415b5.svg": "/ExtraWatts-case/static/media/kiwi.e88415b5.svg",
+    "static/media/kiwiLogo.12c44c53.svg": "/ExtraWatts-case/static/media/kiwiLogo.12c44c53.svg",
+    "static/media/logout-icon.a4189ea4.svg": "/ExtraWatts-case/static/media/logout-icon.a4189ea4.svg",
+    "static/media/marker-icon.9a9ab110.svg": "/ExtraWatts-case/static/media/marker-icon.9a9ab110.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12159c0d.js",
+    "static/js/2.d88ae2e1.chunk.js",
+    "static/css/main.4a4137e4.chunk.css",
+    "static/js/main.1b90293f.chunk.js"
+  ]
+}
