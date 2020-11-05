@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ExtraWatts-case/static/css/main.4a4137e4.chunk.css",
-    "main.js": "/ExtraWatts-case/static/js/main.1b90293f.chunk.js",
-    "main.js.map": "/ExtraWatts-case/static/js/main.1b90293f.chunk.js.map",
+    "main.js": "/ExtraWatts-case/static/js/main.944b64d3.chunk.js",
+    "main.js.map": "/ExtraWatts-case/static/js/main.944b64d3.chunk.js.map",
     "runtime-main.js": "/ExtraWatts-case/static/js/runtime-main.12159c0d.js",
     "runtime-main.js.map": "/ExtraWatts-case/static/js/runtime-main.12159c0d.js.map",
     "static/js/2.d88ae2e1.chunk.js": "/ExtraWatts-case/static/js/2.d88ae2e1.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.12159c0d.js",
     "static/js/2.d88ae2e1.chunk.js",
     "static/css/main.4a4137e4.chunk.css",
-    "static/js/main.1b90293f.chunk.js"
+    "static/js/main.944b64d3.chunk.js"
   ]
 }
