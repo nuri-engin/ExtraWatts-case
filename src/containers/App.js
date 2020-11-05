@@ -11,7 +11,7 @@ function App() {
   return (
     <div className={classes.root}>
       <Sidebar />
-        <Map />
+      <Map />
     </div>
   );
 }

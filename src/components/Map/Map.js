@@ -26,48 +26,53 @@ class Map extends Component {
     console.log("Mouse Enter", e);
   }
   
-  addPlace() {
+  addScooters() {
     const randomScooters = [
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.87, 36.87, 3),
-        lng: generateRandomCoordinate(30.72, 30.74, 3)
+        lat: generateRandomCoordinate(36.85, 36.86, 3),
+        lng: generateRandomCoordinate(30.76, 30.77, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.86, 36.87, 3),
-        lng: generateRandomCoordinate(30.72, 30.76, 3)
+        lat: generateRandomCoordinate(36.87, 36.88, 3),
+        lng: generateRandomCoordinate(30.75, 30.76, 3)
+      },
+      {
+        // The PARKED Scooter!
+        id: Math.random(),
+        lat: generateRandomCoordinate(36.87152, 36.87152, 3),
+        lng: generateRandomCoordinate(30.7193, 30.7193, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.88, 36.87, 3),
-        lng: generateRandomCoordinate(30.72, 30.75, 3)
+        lat: generateRandomCoordinate(36.8711, 36.8715, 3),
+        lng: generateRandomCoordinate(30.7183, 30.7253, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.89, 36.89, 3),
-        lng: generateRandomCoordinate(30.75, 30.72, 3)
+        lat: generateRandomCoordinate(36.8816, 36.8818, 3),
+        lng: generateRandomCoordinate(30.7120, 30.7258, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.91, 36.92, 3),
-        lng: generateRandomCoordinate(30.72, 30.77, 3)
-      },
-      
-      {
-        id: Math.random(),
-        lat: generateRandomCoordinate(36.83, 36.84, 3),
-        lng: generateRandomCoordinate(30.72, 30.75, 3)
+        lat: generateRandomCoordinate(36.8813, 36.8893, 3),
+        lng: generateRandomCoordinate(30.7107, 30.7207, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.96, 36.97, 3),
-        lng: generateRandomCoordinate(30.75, 30.72, 3)
+        lat: generateRandomCoordinate(36.8813, 36.8893, 3),
+        lng: generateRandomCoordinate(30.7107, 30.7207, 3)
       },
       {
         id: Math.random(),
-        lat: generateRandomCoordinate(36.92, 36.93, 3),
-        lng: generateRandomCoordinate(30.72, 30.77, 3)
+        lat: generateRandomCoordinate(36.900, 36.905, 3),
+        lng: generateRandomCoordinate(30.701, 30.711, 3)
+      },
+      {
+        id: Math.random(),
+        lat: generateRandomCoordinate(36.885, 36.905, 3),
+        lng: generateRandomCoordinate(30.720, 30.725, 3)
       }
     ];
     
@@ -75,8 +80,9 @@ class Map extends Component {
   }
   
   componentDidMount() {
-    this.intervalId = setInterval(this.addPlace.bind(this), 2000);
+    this.intervalId = setInterval(this.addScooters.bind(this), 2000);
   }
+  
   componentWillUnmount() {
     clearInterval(this.intervalId);
   }
@@ -91,8 +97,7 @@ class Map extends Component {
               onChildMouseEnter={this.onChildMouseEnter}
               onChildMouseLeave={this.onChildMouseLeave}
           >
-            {!!this.state.scooters &&
-            this.state.scooters.map((scooter) => {
+            {!!this.state.scooters && this.state.scooters.map((scooter) => {
               return (
                   <Scooters
                       key={scooter.id}
