@@ -14,66 +14,63 @@ import { ReactComponent as LogoutIcon } from "../../assets/icons/logout-icon.svg
 
 export default function SidebarItems() {
   const classes = useStyles();
-
+  
   return (
-    <div>
-      <div className={classes.toolbar} />
-      <List>
+      <List style={{ minHeight: "95%" }}>
         <div className={classes.logo}>
           <AppLogo />
         </div>
         <div className={classes.subLogoContent}>
-          <span style={{ borderBottom: "1px solid #0D361E" }}>
-            ODESSA SAFE ZONE
-          </span>
+        <span style={{ borderBottom: "1px solid #0D361E" }}>
+          ODESSA SAFE ZONE
+        </span>
         </div>
         {["KIEV SAFE ZONE", "LVIV SAFE ZONE"].map((text, index) => (
-          <ListItem
-            className={classes.listItemText}
-            style={{ textAlign: "center", padding: 0, color: "#073F15" }}
-            button
-            key={text}
-          >
-            <ListItemText
-              disableTypography
-              primary={
-                <Typography
-                  type="body2"
-                  style={{
-                    fontSize: 13,
-                  }}
-                >
-                  <span
+            <ListItem
+                className={classes.listItemText}
+                style={{ textAlign: "center", padding: 0, color: "#073F15" }}
+                button
+                key={text}
+            >
+              <ListItemText
+                  disableTypography
+                  primary={
+                    <Typography
+                        type="body2"
+                        style={{
+                          fontSize: 13,
+                        }}
+                    >
+                <span
                     style={{
                       borderBottom: "1px solid #F2F2F2",
                     }}
-                  >
-                    {text}
-                  </span>
-                </Typography>
-              }
-            />
-          </ListItem>
+                >
+                  {text}
+                </span>
+                    </Typography>
+                  }
+              />
+            </ListItem>
         ))}
         <ListItem
-          className={classes.logout}
-          style={{ textAlign: "center" }}
-          button
-          key="logout"
+            className={classes.logout}
+            style={{ textAlign: "center" }}
+            button
+            key="logout"
         >
           <ListItemIcon>
             <LogoutIcon className={classes.logoutIcon} />
           </ListItemIcon>
           <ListItemText
-            disableTypography
-            primary={
-              <Typography type="body2" style={{ fontSize: 10 }}>
-                LOGOUT
-              </Typography>
-            }
+              disableTypography
+              primary={
+                <Typography type="body2" style={{ fontSize: 10 }}>
+                  LOGOUT
+                </Typography>
+              }
           />
         </ListItem>
       </List>
-    </div>
   );
 }

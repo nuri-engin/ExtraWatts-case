@@ -15,7 +15,7 @@ class Map extends Component {
       lat: 36.8717135,
       lng: 30.7262676
     },
-    zoom: 13
+    zoom: 14
   };
   
   onChildMouseLeave(e) {

@@ -10,17 +10,17 @@ Application structure;
         # Components
             # Sidebar
                 - Appbar (Mobile version): Toolbar - IconButton (MenuIcon) - AppName (Logo)
-                - Drawer: Pixel-Perfect approach between `Appbar` and `SidebarItems` visibility.
-                - SidebarItems (Desktop version): AppLogo - Nav menu list - Logout button.
+                - Drawer: Pixel-Perfect approach between `Appbar` and `SidebarItems` visibility
+                - SidebarItems (Desktop version): AppLogo - Nav menu list - Logout button
             # Map
-                - Scooters: SVG icon.
-                - GoogleMapReact: Random pins. 
+                - Scooters: SVG icon
+                - GoogleMapReact: Random pins
 ```
 
 #### # Tech Stack
-- React.
-- [google-map-react](https://github.com/google-map-react/google-map-react) for Google Maps API.
-- Material UI.
+- React
+- Material UI
+- [google-map-react](https://github.com/google-map-react/google-map-react) for Google Maps API
 
 ---
 ###### # Run the app on [Github Pages](https://nuri-engin.github.io/ExtraWatts-case/) or [Heroku](https://kiwi-ride.herokuapp.com/) 

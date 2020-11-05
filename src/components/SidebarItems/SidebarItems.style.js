@@ -17,9 +17,9 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 14,
   },
   logout: {
-    top: "550px",
     textAlign: "center",
-    position: "relative",
+    position: "absolute",
+    bottom: 0,
     left: -17,
   },
   logoutIcon: {
