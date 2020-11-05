@@ -19,12 +19,12 @@ const useStyles = makeStyles((theme) => ({
   logout: {
     textAlign: "center",
     position: "absolute",
-    bottom: 0,
-    left: -17,
+    left: 50,
+    bottom: 20
   },
   logoutIcon: {
     position: "relative",
-    left: 90,
+    left: 25
   },
 }));
 

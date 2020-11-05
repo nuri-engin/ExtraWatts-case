@@ -16,7 +16,7 @@ export default function SidebarItems() {
   const classes = useStyles();
   
   return (
-      <List style={{ minHeight: "95%" }}>
+      <List style={{ height: "100%" }}>
         <div className={classes.logo}>
           <AppLogo />
         </div>
@@ -53,24 +53,25 @@ export default function SidebarItems() {
               />
             </ListItem>
         ))}
-        <ListItem
-            className={classes.logout}
-            style={{ textAlign: "center" }}
-            button
-            key="logout"
-        >
-          <ListItemIcon>
-            <LogoutIcon className={classes.logoutIcon} />
-          </ListItemIcon>
-          <ListItemText
-              disableTypography
-              primary={
-                <Typography type="body2" style={{ fontSize: 10 }}>
-                  LOGOUT
-                </Typography>
-              }
-          />
-        </ListItem>
+        <div className={classes.logout}>
+            <ListItem
+                style={{ textAlign: "center" }}
+                button
+                key="logout"
+            >
+                <ListItemIcon>
+                    <LogoutIcon className={classes.logoutIcon} />
+                </ListItemIcon>
+                <ListItemText
+                    disableTypography
+                    primary={
+                        <Typography type="body2" style={{ fontSize: 10 }}>
+                            LOGOUT
+                        </Typography>
+                    }
+                />
+            </ListItem>
+        </div>
       </List>
   );
 }
